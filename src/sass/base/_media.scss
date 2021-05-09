@@ -1,0 +1,92 @@
+@media (max-width: 1200px) {
+  .header__contacts {
+    button {
+      margin-top: 20px;
+    }
+  }
+
+  .promo__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .consultation {
+    padding-top: 50px 0 50px 0;
+    text-align: center;
+
+    &__descr {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .feed-form {
+    margin: 0 auto;
+
+    input {
+      margin-bottom: 40px;
+    }
+
+    button {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .promo__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .consultation {
+    padding-top: 50px 0 50px 0;
+    text-align: center;
+
+    &__descr {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  }
+
+  .feed-form {
+    margin: 0 auto;
+
+    input {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 0 20px 0 20px;
+
+    &__official {
+      display: none;
+    }
+  }
+
+  .promo__header {
+    font-size: 35px;
+  }
+
+  .promo__subheader {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .benefits__items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .promo__link {
+    margin-top: 70px;
+  }
+
+  .title_left {
+    font-size: 30px;
+  }
+}
